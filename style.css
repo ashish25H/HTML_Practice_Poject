@@ -1,0 +1,270 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ----------------------navBar-style-------------------- */
+header {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  z-index: 40;
+}
+
+.logo {
+  margin-left: 30px;
+}
+
+.unorderedList {
+  display: flex;
+  align-items: center;
+}
+
+.unorderedList li {
+  list-style: none;
+  margin-right: 30px;
+}
+.unorderedList li a {
+  text-decoration: none;
+  color: gray;
+  font-weight: 500;
+  /* margin-right: 25px; */
+}
+.hmcl{
+    display: none;
+}
+.hamburger {
+  display: none;
+}
+.close {
+  display: none;
+}
+.dropList{
+    display: none;
+}
+
+.navBtn {
+  padding: 8px 20px;
+  background-color: #ffffff;
+  color: #5304ad;
+  border: 2px solid #5304ad;
+  border-radius: 1px;
+}
+.unorderedList li a:hover {
+  color: #1e1e1e;
+}
+.navBtn:hover {
+  background-color: #5304ad;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+}
+
+/* ---------------------------hero-section---------------------------- */
+.heroSection {
+  background-color: #3d1958;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 500px;
+}
+.textSection {
+  color: #ffffff;
+  margin-left: 150px;
+}
+.heading p {
+  font-size: 70px;
+  font-weight: 800;
+}
+.para p {
+  color: #e3e3e3;
+  margin-top: 10px;
+  line-height: 25px;
+}
+.heroBtn button {
+  padding: 10px 30px;
+  margin-top: 20px;
+  background-color: #3d1958;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  font-weight: 600;
+}
+.heroBtn button:hover {
+  background-color: #ffffff;
+  color: #3d1958;
+}
+.heroLine {
+  border-top: 2px solid #ffffff;
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+.imgSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 500px;
+}
+
+.introImg {
+  width: 500px;
+  height: 550px;
+  z-index: 10;
+  margin-right: -250px;
+  margin-top: 150px;
+}
+.patternImg {
+  width: 400px;
+  height: 450px;
+  z-index: 20;
+  margin-top: -44px;
+}
+
+.patternLeft {
+  margin-top: -180px;
+}
+
+/* ----------------------differentSection-style------------------- */
+.differentSection {
+  padding: 0 100px 80px 100px;
+}
+.diffLine {
+  border-top: 1px solid gray;
+  width: 200px;
+  margin-bottom: 50px;
+}
+.diffHeading {
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+.techImgAndText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgCard {
+  margin-bottom: 20px;
+}
+.cardHeading {
+  margin-bottom: 10px;
+}
+.snappy {
+  margin-right: 15px;
+}
+.affordable {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.people {
+  margin-left: 15px;
+}
+
+/* ------------------------findOut-style-------------------------- */
+.findOut {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #3d1958;
+  margin: 50px 100px;
+  padding: 50px 20px;
+  color: #ffffff;
+}
+.findHeading {
+  font-size: 50px;
+  font-weight: 600;
+}
+.findBtn {
+  background-color: #3d195800;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  padding: 10px 30px;
+}
+.findBtn:hover {
+  background-color: #ffffff;
+  /* border: 1px solid #3d1958; */
+  color: #3d1958;
+}
+.bgImg {
+  background-image: url("./images/bg-pattern-how-we-work-desktop.svg");
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+/* -------------------footer-style--------------------- */
+footer {
+  background-color: #eeeeee;
+  padding: 40px 100px;
+}
+.footerHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.social img {
+  margin-right: 8px;
+}
+.footerLine {
+  border-top: 2px solid gray;
+  margin-bottom: 25px;
+}
+.list {
+  display: flex;
+  justify-content: space-around;
+}
+.list ul li {
+  list-style: none;
+  text-align: left;
+  /* margin-bottom: 5px; */
+}
+.head {
+  color: gray;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+.mb {
+  margin-bottom: 8px;
+  color: #3d1958;
+}
+.mb:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.socialimg:hover {
+  background-color: #3d1958;
+}
+
+.dropDown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3d1958;
+  padding: 20px 0;
+  text-align: center;
+}
+.dropDown ul li {
+  list-style: none;
+  color: #ffffff;
+  margin-bottom: 10px;
+  padding: 5px 20px;
+}
+.dropDown ul li:hover{
+    border: 1px solid #ffffff;
+}
+
+@media only screen and (max-width: 400px) {
+  .unorderedList {
+    display: none;
+  }
+  .hmcl{
+    display: block;
+  }
+  .hamburger {
+    display: block;
+  }
+}
